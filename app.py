@@ -2,6 +2,7 @@ from flask import Flask , request , render_template,jsonify
 from src.pipeline.prediction_pipeline import CustomData , PredictionPipeline
 
 
+
 application = Flask(__name__)
 app = application
 
